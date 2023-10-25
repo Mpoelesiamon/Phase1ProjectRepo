@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin: 0;
+  }
+  #qrcode {
+    width: 300px;
+    height: 300px; 
+  }
+  h1 {
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+  }
+  #phone-input {
+    width: 10%;
+    padding: 15px;
+    margin: 10px;
+  }
+  #generate-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  #download-link {
+   padding: 10px 30px;
+    display: Download QR Code;
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  

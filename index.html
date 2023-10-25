@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Custom QR Code Generator</title>
+ <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+ <h1>MY QR CODE</h1>
+ <input id="phone-input" type="tel" placeholder="Enter Phone Number" required>
+ <button id="generate-btn" onclick="generateQRCode()">Generate QR Code</button>
+ <div id="qrcode"></div>
+ <button id="download-link" onclick="downloadQRCode()">DOWNLOAD QR CODE</button>
+ <div id="download"></div>
+ <script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
+ <script src="index.js"></script>
+</body>
+</html>
