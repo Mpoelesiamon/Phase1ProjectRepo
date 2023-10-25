@@ -1,39 +1,59 @@
-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 50vh;
+body, h2, p, ul, li {
     margin: 0;
+    padding: 0;
+    background-color: bisque;
   }
-  #qrcode {
-    width: 300px;
-    height: 300px; 
-  }
-  h1 {
+  .container 
+  {
     text-align: center;
-    padding: 10px;
-    background-color: black;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .heading 
+  {
+    background-color: #333;
     color: #fff;
+    padding: 10px;
   }
   #phone-input {
-    width: 10%;
-    padding: 15px;
-    margin: 10px;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
   }
-  #generate-btn {
-    padding: 10px 20px;
+  #generate-btn 
+  {
     background-color: #007bff;
     color: #fff;
     border: none;
+    padding: 10px 20px;
     cursor: pointer;
   }
-  #download-link {
-   padding: 10px 30px;
-    display: Download QR Code;
-    text-align: center;
+  #qrcode 
+  {
+    margin: 20px 0;
+    align-items: center;
+  }
+  .download-button 
+  {
+    display: block;
     background-color: #007bff;
     color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 20px 0;
+  }
+  button 
+  {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
     cursor: pointer;
   }
-  
+  form 
+  {
+    text-align: center;
+  }
